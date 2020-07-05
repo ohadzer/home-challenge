@@ -4,7 +4,7 @@ metadata:
   name: ohad-service
 spec:
   selector:
-    app: hello-python
+    app: ohad-app
   ports:
   - protocol: "TCP"
     port: 6000

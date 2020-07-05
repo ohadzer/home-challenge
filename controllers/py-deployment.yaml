@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: py-deployment
+  labels:
+    app: ohad-app 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ohad-app
+  template:
+    metadata:
+      labels:
+        app: ohad-app
+    spec:
+      containers:
+      - name: ohad-app
+        image: ohad-app
+        ports:
+        - containerPort: 5000

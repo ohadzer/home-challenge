@@ -1,2 +1,2 @@
-docker load -i ohad-app.tar 
-kubectl apply -f ./py-deployment.yaml 
+docker build -t ohadz/ohad-app .
+kubectl apply -f ./py-deployment.yaml

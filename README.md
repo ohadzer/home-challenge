@@ -13,7 +13,8 @@ This project will containerize simple python application that uses Flask and dep
 ```bash
    ./deploy.sh
    ```
-4. Open browser and insert the worker IP with port 31515 to see the output
+Now, check that the Service was created properly:
+Open a browser and insert the worker's IP with port 31515 
 ```bash
-   <machine_ip>:31515
+   <worker_ip>:31515
    ```

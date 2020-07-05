@@ -13,7 +13,7 @@ This project will containerize simple python application that uses Flask and dep
 ```bash
    ./deploy.sh
    ```
-Now, check that the Service was created properly:
+Now, check that the Service was created properly:<br>
 Open a browser and insert the worker's IP with port 31515 
 ```bash
    <worker_ip>:31515

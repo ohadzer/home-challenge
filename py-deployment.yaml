@@ -30,6 +30,6 @@ spec:
       containers:
       - name: ohad-app
         image: ohadz/ohad-app
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000

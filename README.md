@@ -1,7 +1,7 @@
 # Home-Challenge
 This project will containerize simple python application that uses Flask and deploy it to your k8s cluster!
 # How to Deploy to your k8s
-1. On the master - Clone this project, from your server type
+1. On the master - Clone this project
 ```bash
    git clone git://github.com/ohadzer/home-challenge
    ```

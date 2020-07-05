@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: ohad-app
-        image: ohadz/ohad-app
+        image: ohadz/ohad-app:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
